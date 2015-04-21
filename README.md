@@ -1,4 +1,6 @@
 Ruby 2.1 & Bundler, built on CentOS
 
+Built from promptworks/docker-ruby-2.1
+
     # Use this in your Dockerfile with
-    FROM promptworks/ruby-2.1
+    FROM tyrbo/ruby-2.1

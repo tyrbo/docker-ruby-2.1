@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER PromptWorks <team@promptworks.com>
+MAINTAINER Jonmichael Chambers <jon@tyrbo.net>
 
 ADD install_ruby.sh /tmp/
 RUN /tmp/install_ruby.sh
