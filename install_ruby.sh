@@ -7,6 +7,7 @@ cd /tmp
 
 yum list installed | cut -f 1 -d " " | uniq | sort > /tmp/pre
 yum install bzip2 git tar wget -y
+yum groupinstall -y "Development Tools"
 
 wget -O ruby-install-$RUBY_INSTALL_VERSION.tar.gz \
   https://github.com/postmodern/ruby-install/archive/v$RUBY_INSTALL_VERSION.tar.gz
